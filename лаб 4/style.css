@@ -1,0 +1,41 @@
+body {
+  background: url('https://e3.365dm.com/23/08/1600x900/skynews-tropical-rainforest_6259968.jpg?20230823123136') center/cover fixed;
+  height: 100vh;
+  width: 100vw;
+  margin: 0;
+  overflow: hidden;
+  font-family: 'Georgia', serif;
+  color: white;
+}
+
+.navbar {
+  background-color: rgba(34, 139, 34, 0.9);
+}
+
+.container {
+  margin-top: 100px;
+}
+
+.card {
+  background-color: rgba(255, 255, 255, 0.9);
+  color: black;
+  border-radius: 15px;
+  box-shadow: 0 4px 8px rgba(0, 100, 0, 0.3);
+  transition: transform 0.3s ease-in-out;
+}
+
+.card:hover {
+  transform: scale(1.05);
+}
+
+.card img {
+  border-radius: 15px;
+}
+
+.btn {
+  transition: all 0.3s ease-in-out;
+}
+
+.btn:hover {
+  transform: scale(1.1);
+}
